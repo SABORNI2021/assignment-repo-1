@@ -2,7 +2,7 @@ body{
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     font-size: larger;
-    margin: 150px;
+
 }
 .font-change{
     font-weight: 900;
@@ -31,11 +31,81 @@ p{
     width: 200px;
     height: 200px;
 }
+.image-width{
+    width: 400px;
+    height: 400px;
+}
 .flexible-style{
     display: flex;
-    margin-bottom: 50px;
+    margin: 150px;
 }
 .half-wide{
-    padding: 5%;
-    width: 50;
+       width: 40%;
+       margin-left: 20px;
+       margin-right: 20px;
+       padding-left: 20px;
+       padding-right: 20px;
+       box-shadow: 10px 10px 30px gray;
+       border-radius: 30px;
+}
+#color-1{
+    background-color: rgb(213, 226, 231);
+}
+#color-2{
+    background-color: rgb(218, 204, 206);
+}
+#color-3{
+    background-color: rgb(224, 215, 192);
+}
+.size-image{
+    height: 500px;
+    width: 500px;
+}
+
+.space-writing{
+    padding: 50px;
+    font-size: x-large;
+}
+#gap-writing{
+    padding: 100px;
+    font-size: x-large;
+}
+#font-document{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align:center ;
+    display: block;
+}
+.end-add{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: top-left;
+    background-size: 200px;
+    
+}
+.round-banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 200px;
+}
+.last-line{
+    align-items: center;
+    font-weight: bold;
+}
+.size{
+    height: 600px;
+    width: 600px;
+    margin: 50px;
+}
+.flexible{
+    display: flex;
+    margin: 100px;
 }
