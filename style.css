@@ -2,15 +2,30 @@ body{
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     font-size: larger;
+    margin: 0;
 
 }
 .font-change{
     font-weight: 900;
     font-size: 50px;
 }
+.div-gap{
+    margin-left: 30px;
+    margin-right: 150px;
+    
+}
+#slicing{
+    border-left: 6px solid;
+    border-image: linear-gradient(tomato,red);
+    border-image-slice: 1;
+}
 .blue-color{
     color:orange;
 }
+.small-gap{
+    margin-top:50px;
+}
+
 p{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
@@ -18,9 +33,10 @@ p{
     text-decoration: none;
     background-image: linear-gradient(red,orange);
     color: white;
-    font-weight: 600;
+    font-weight: 400;
     padding: 15px 30px;
     border-radius: 10px;
+    margin-top: 50px;
 }
 .bold{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -101,11 +117,18 @@ p{
     font-weight: bold;
 }
 .size{
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     margin: 50px;
 }
 .flexible{
     display: flex;
     margin: 100px;
+}
+.last-banner{
+    background-image: url(images/shapes/shape-8.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    background-size: 250px;
 }
